@@ -1,0 +1,22 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bf16=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cross-domain-en-de-500K', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=True, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=32768, nwordstgt=32768, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, scoring='bleu', seed=1, source_lang='en', srcdict=None, target_lang='de', task='translation', tensorboard_logdir=None, testpref='s/test.tst2013,s/test.tst2014', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='s/train', user_dir=None, validpref='s/in_domain_train,s/valid', wandb_project=None, workers=1)
+[en] Dictionary: 32768 types
+[en] s/train.en: 602854 sents, 17599172 tokens, 0.00201% replaced by <unk>
+[en] Dictionary: 32768 types
+[en] s/in_domain_train.en: 193423 sents, 4529554 tokens, 0.000199% replaced by <unk>
+[en] Dictionary: 32768 types
+[en] s/valid.en: 1700 sents, 34842 tokens, 0.0% replaced by <unk>
+[en] Dictionary: 32768 types
+[en] s/test.tst2013.en: 993 sents, 23688 tokens, 0.00422% replaced by <unk>
+[en] Dictionary: 32768 types
+[en] s/test.tst2014.en: 1305 sents, 28838 tokens, 0.0% replaced by <unk>
+[de] Dictionary: 32768 types
+[de] s/train.de: 602854 sents, 17899563 tokens, 0.00228% replaced by <unk>
+[de] Dictionary: 32768 types
+[de] s/in_domain_train.de: 193423 sents, 4571963 tokens, 0.000262% replaced by <unk>
+[de] Dictionary: 32768 types
+[de] s/valid.de: 1700 sents, 35618 tokens, 0.00562% replaced by <unk>
+[de] Dictionary: 32768 types
+[de] s/test.tst2013.de: 993 sents, 23842 tokens, 0.0% replaced by <unk>
+[de] Dictionary: 32768 types
+[de] s/test.tst2014.de: 1305 sents, 29641 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cross-domain-en-de-500K
